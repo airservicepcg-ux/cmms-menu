@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CMMS Menu</title>
+
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="manifest.json">
+
   <style>
     body {
       font-family: Arial;
       background: #f4f6f9;
       text-align: center;
+      margin: 0;
     }
+
     h2 {
       margin-top: 20px;
     }
+
     .menu {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 15px;
       padding: 20px;
     }
+
     .btn {
       background: #007bff;
       color: white;
@@ -26,18 +36,18 @@
       text-decoration: none;
       font-size: 16px;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80px;
+    }
+
+    .btn:hover {
+      background: #0056b3;
     }
   </style>
-  <head>
-  <meta charset="UTF-8">
-  <title>CMMS Menu</title>
-
-  <link rel="icon" href="icon.png">
-  <link rel="apple-touch-icon" href="icon.png">
-  <link rel="manifest" href="manifest.json">
-
 </head>
-</head>
+
 <body>
 
 <h2>CMMS Menu</h2>
@@ -58,6 +68,10 @@
 
   <a class="btn" href="#">
     PM Schedule
+  </a>
+
+  <a class="btn" href="https://drive.google.com/drive/folders/16D5-As6PDwCFAELSEdc1C629lB0enzXT" target="_blank">
+    5S Report Center
   </a>
 
 </div>
